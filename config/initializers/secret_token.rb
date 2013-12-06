@@ -27,4 +27,4 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token
+RortApp::Application.config.secret_key_base = secure_token
